@@ -1,0 +1,92 @@
+body {
+    font-family: 'Lusitana', serif;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #94949e;
+}
+
+/*navagationbar*/
+
+.nav {
+    width: 30%;
+    vertical-align: top;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*linkhovercolor*/
+
+a:link {text-decoration: none;}
+
+.nav li a:hover {background-color: #2e1366;}
+
+.navindex {
+    width: 200px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.main {
+    width: 50%;
+    margin-top: -410px;
+    font-size: 30px;
+}
+.main img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.nav, .main {
+    display: inline-block;
+}
+
+/*contactpage*/
+#container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-color: transparent; 
+    margin-bottom: 30px;
+}
+
+/*contactinfo*/
+
+#contactinfo {
+    color: white;
+    width: 45%;
+    margin-top: -200px;
+    display: inline-block;
+}
+
+p, h2, h3, h5 {color: white;}
+
+p {font-size: 30px;}
+
+.contactimage img {
+    width: 15%;
+    height: 190px;
+    padding-top: 40px;
+} 
+
+/*aboutpage*/
+
+.aboutimage img {
+    width: 15%;
+    padding-top: 40px;
+}
+.aboutsec {
+    color: white;
+    width: 50%;
+    margin-top: -410px;
+    display: inline-block;
+}
